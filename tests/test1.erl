@@ -1,5 +1,6 @@
--module(test1).
--export([print/0]).
-
-print() ->
-	io:format("This is a test of print\n").
+-module (test1).
+-export ([demo/1]).
+demo(X) ->
+put(aa, worked),
+X = 1,
+X + 10.
